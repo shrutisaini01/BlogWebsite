@@ -1,0 +1,93 @@
+@media screen and (max-width: 837px){
+  .navigation {
+    flex-direction: column;
+    margin-bottom: 38px;
+  }
+
+  .logo {
+    flex-direction: column;
+    margin-bottom: 23px;
+    align-items: center;
+  }
+
+  .logo li {
+     margin-left: 255px;
+  }
+
+  .searching {
+    margin-bottom: 15px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 23px;
+  }
+
+  .home-article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .articles-content {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: -3px;
+  }
+
+  .article-image {
+    margin-bottom: 1px;
+  }
+
+  .contact-content {
+    margin-top: 65px;
+  }
+
+  .heading {
+   font-size: 14px;
+   text-align: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 6px;
+  }
+
+  .articles-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-image:hover {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .me {
+    text-align: center;
+    margin: auto;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .What p {
+    margin-left: 256px;
+    margin-right: 256px;
+  }
+
+  .text {
+    margin-left: 178px;
+    margin-right: 178px;
+  }

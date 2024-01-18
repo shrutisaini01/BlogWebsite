@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <!--Stylesheets -->
+  <meta name="viewport" content="width=device-width initial scale=1.0"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/utility.css"/>
+  <link rel="stylesheet" href="css/contact.css"/>
+  <link rel="stylesheet" href="css/mobile.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playball&family=Playpen+Sans:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--Navbar Content -->
+  <nav class="navigation">
+    <div class="logo">
+      <a class="home-link" href="index.html">
+      <span>myBlog</span>
+    </a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="search.html"></a><li>
+      </ul>
+    </div>
+    <div class="searching">
+      <form action="search.html" method="get">
+      <input class="form-input" type="text" name="query" placeholder="Article search ">
+      <button class="btn" type="submit">SEARCH</button>
+      </form>
+      </div>
+    </nav>
+
+   <!--Contact Box -->
+      <div class="contact-content width1">
+        <h2 class="width1 heading">FEEL FREE TO ASK</h2>
+        <form action="http://localhost:3200/submit-form" method="post" id="contactForm">
+        <div class="formBox">
+          <input class="form-input" type="text" placeholder="Enter your name ">
+        </div>
+        <div class="formBox">
+          <input class="form-input" type="text" placeholder="Enter your email ">
+        </div>
+        <div class="formBox">
+              <input class="form-input" type="text" placeholder="Enter your contact number ">
+        </div>
+       <div class="formBox">
+                <textarea name="" rows="10" cols="" placeholder="Enter your text"></textarea>
+        </div>
+        <div class="formBox">
+            <button class="btn" type="submit">SUBMIT</button>
+          </div>
+        </form>
+        
+        <!-- Confirmation check for contact box -->
+        <div class="confirmation" style="display: none;">
+               Details submitted successfully! <span class="confirmation-check">✔</span>
+       </div>
+        </div>
+
+    <!--Footer Content -->
+      <div class="footer">
+        Copyright &copy; myBlog.com
+        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Frandom&psig=AOvVaw1e2UmlwdFHEWiYbsC_wcBU&ust=1704379062562000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCKjAyO-3wYMDFQAAAAAdAAAAABAE">Vector Credits: Unsplash</a>
+        </div>
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/contact.js"></script>
+  </body>
+</html>
